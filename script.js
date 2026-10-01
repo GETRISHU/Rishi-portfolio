@@ -171,7 +171,7 @@ form.addEventListener('submit', (e) => {
   const email = document.querySelector('input[name="email"]').value;
   const message = document.querySelector('textarea[name="message"]').value;
 
-  const mailtoLink = `mailto:mgrishi78@gmail.com?subject=Contact Form Submission&body=Name: ${encodeURIComponent(fullname)}%0AEmail: ${encodeURIComponent(email)}%0AMessage: ${encodeURIComponent(message)} target=_blank`;
+  const mailtoLink = `mailto:devwizardrishi@gmail.com?subject=Contact Form Submission&body=Name: ${encodeURIComponent(fullname)}%0AEmail: ${encodeURIComponent(email)}%0AMessage: ${encodeURIComponent(message)} `;
 
   window.location.href = mailtoLink;
 
